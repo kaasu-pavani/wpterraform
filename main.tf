@@ -1,9 +1,7 @@
 #provider.tf
 provider "aws" {
   region     = "ap-southeast-2"
-  access_key = "AKIAST6CRZ5OMR7HAZOY"
-  secret_key = "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"
-}
+ }
 
 #vpc.tf
 resource "aws_vpc" "main" {
